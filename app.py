@@ -41,4 +41,4 @@ def bokeh():
     return encode_utf8(html)
 
 if __name__ == '__main__':
-    app.run(port=8083, debug=True)
+    app.run(port=8083, host="0.0.0.0" debug=True)
